@@ -126,6 +126,17 @@
             text-decoration: underline;
         }
 
+        /* Медиа-запрос для мобильных устройств */
+        @media screen and (max-width: 600px) {
+            .modal-content {
+                width: 90%;
+            }
+            .modal-content form div input,
+            .modal-content form div textarea {
+                flex: 100%;
+            }
+        }
+
     </style>
 </head>
 
